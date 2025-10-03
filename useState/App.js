@@ -22,7 +22,7 @@ export default function App() {
     }
   }
 
-  return (
+return (
     <View style={styles.containerTimeA}>
 
       <View style={styles.button}>
@@ -38,6 +38,7 @@ export default function App() {
 
       <StatusBar style="auto" />
     </View>
+    
   );
 }
 
@@ -45,7 +46,14 @@ const styles = StyleSheet.create({
   containerTimeA: {
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#fff',
+    backgroundColor: '#da1212ff',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    },
+  containerTimeB: {
+    flex: 1,
+    flexDirection: 'row',
+    backgroundColor: '#256fcfff',
     alignItems: 'center',
     justifyContent: 'space-evenly',
     },
